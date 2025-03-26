@@ -1,26 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import de Link pour la navigation
 import "./Login.css";
-import hangook from "./img/hangook.png"; // Remplace avec ton image
+import hangook from "../img/hangook.png"; // Remplace avec ton image
 
 function Login() {
   return (
     <div className="container">
-      {/* En-tête avec le bouton Login */}
+      {/* En-tête avec le bouton Sign Up */}
       <header className="header">
         <p className="login-text">Create an account ?</p>
-        <button className="login-btn">Sign up</button>
+        <Link to="/"> 
+          <button className="login-btn">Sign up</button>
+        </Link>
       </header>
 
       <div className="main-content">
         {/* Section Gauche */}
         <div className="left-section">
           <img src={hangook} alt="Quizkarooo Logo" className="hangook" />
-          <h1 className="app-title">QuizlandApp</h1>
-          <p className="tagline">Take a Quiz be more creative in your work</p>
+          <h1 className="app-title">KQuizLand</h1>
+          <p className="tagline">🌟 "You don’t shine alone. You shine brighter when you’re with someone."
+          — Hometown Cha-Cha-Cha (2021)</p>
         </div>
+
         {/* Section Droite */}
         <div className="right-section">
-          <h2 className="welcome-title">Welcome to QuizlandApp</h2>
+          <h2 className="welcome-title">🌸 "KQuizLand, l’aventure  commence !</h2>
           <p className="subtitle">Login and start quizz</p>
 
           <form className="auth-form">
