@@ -1,0 +1,150 @@
+/* Styles Globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    background: white;
+    width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header avec bouton Login */
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  
+  .login-btn {
+    background: transparent;
+    border: 2px solid #ff69b4; /* Même couleur que l’habit de la fille */
+    color: #ff69b4;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Effet au survol */
+  .login-btn:hover {
+    background: #ff69b4;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(255, 105, 180, 0.4);
+  }
+  
+  /* Texte "Already have an account?" */
+  .login-text {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  
+  .main-content {
+    display: flex;
+  }
+  
+  /* Section Gauche */
+  .left-section {
+    flex: 1;
+    background: #f7f9ff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .hangook {
+    width: 300px;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .tagline {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  /* Section Droite */
+  .right-section {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .welcome-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulaire */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Bouton Sign Up */
+  .signup-btn {
+    background: #ff69b4; /* Couleur de l'habit de la fille */
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background: #ff4d94;
+  }
+  
+  /* Réseaux sociaux */
+  .social-auth {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  
